@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        while(false){
+        
         int a=0;
         Console.WriteLine("Задача 27:метод который принимает на вход число и выдаёт сумму цифр в числе.");
         int summ(int a){
@@ -164,7 +164,7 @@
     summ(a);
     a=summ(a);
     Console.WriteLine(a);
-    }
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     Console.WriteLine(" метод, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.нельзя использовать Math.Pow");
    
     double stpen(double a,int b){
@@ -172,7 +172,9 @@
         for(;b>1;b--){a=a*c;}
         return a;
     }
+    Console.WriteLine("в ведите число возводимое в степень");
      double a1 = double.Parse (Console.ReadLine());
+     Console.WriteLine("введите число возводящее в степень");
      int b =int.Parse(Console.ReadLine());
      stpen(a1,b);
      a1=stpen(a1,b);
